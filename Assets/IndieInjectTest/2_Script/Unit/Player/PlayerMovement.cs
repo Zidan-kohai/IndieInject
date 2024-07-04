@@ -1,4 +1,5 @@
 using IndieInject;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -8,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(Input.mousePosition * data.Speed * Time.deltaTime);
+        Vector3 movement = new Vector3(input.Horizontal, 0, input.Vertical) * data.Speed * Time.deltaTime;
+
+        transform.Translate(movement);
     }
 }

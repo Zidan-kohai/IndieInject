@@ -1,7 +1,6 @@
 using IndieInject;
-using UnityEngine;
 
-public class InputSystemProvider : MonoBehaviour
+public class InputSystemProvider : MonoProvider
 {
     [Provide(true)]
     public InputSystem ProvideInputSystem() => new();

@@ -14,9 +14,9 @@ namespace IndieInject
     {
         private void Start()
         {
-            MonoBehaviour[] all = FindObjectsOfType<MonoBehaviour>(true);
+            var all = FindObjectsOfType<MonoBehaviour>(true);
 
-            foreach (MonoBehaviour monoBehaviour in all)
+            foreach (var monoBehaviour in all)
             {
                 Indie.Injector.Inject(monoBehaviour);
             }

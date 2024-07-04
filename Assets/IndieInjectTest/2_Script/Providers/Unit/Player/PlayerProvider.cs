@@ -1,7 +1,7 @@
 using IndieInject;
 using UnityEngine;
 
-public class PlayerProvider : MonoBehaviour
+public class PlayerProvider : MonoProvider
 {
     [SerializeField] private PlayerMovement playerPrefab;
     [SerializeField] private PlayerData playerData;

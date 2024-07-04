@@ -17,7 +17,7 @@ public class SceneLoader : MonoBehaviour
 
     private void Update()
     {
-        if(input.LoadScene)
+        if (input.LoadScene)
         {
             SceneManager.LoadScene(2);
         }
