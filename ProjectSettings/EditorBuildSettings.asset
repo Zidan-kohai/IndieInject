@@ -7,6 +7,9 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/IndieInjectTest/0_Scenes/Init.unity
+    guid: 1d4466e93043e4142864e08e835f8640
+  - enabled: 1
+    path: Assets/IndieInjectTest/0_Scenes/Menu.unity
     guid: 971f79c6f10410b4f89460946903ff60
   - enabled: 1
     path: Assets/IndieInjectTest/0_Scenes/Game.unity

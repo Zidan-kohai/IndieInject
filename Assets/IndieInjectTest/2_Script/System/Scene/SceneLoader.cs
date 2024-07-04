@@ -19,7 +19,7 @@ public class SceneLoader : MonoBehaviour
     {
         if(input.LoadScene)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
     }
 }
